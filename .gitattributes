@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+a = {"달러":1320, "엔":950, "위안":182}
+b = [13, 200, 13]
+
+c = a["달러"] * b[0]
+d = a["엔"] * b[1]
+e = a["위안"] * b[2]
+
+x = c + d + e
+
+print("철수가 가지고 있는 돈의 원화 가치는", x, "원 입니다.")
